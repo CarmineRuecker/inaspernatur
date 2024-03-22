@@ -1,0 +1,27 @@
+{
+  "name": "inaspernatur",
+  "version": "1.0.0",
+  "description": "ImmutableSplits are a set of lightweight, immutable, gas-efficient payout split contracts. They are designed to be deployed to a deterministic address by a factory contract, which tracks if a particular payout split has already been deployed.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarmineRuecker/inaspernatur.git"
+  },
+  "keywords": [
+    "amet",
+    "autem",
+    "esse",
+    "payouts"
+  ],
+  "author": "JohnnyTrantow",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@emo-eth/create2-clones-with-immutable-args": "^0.1.0"
+  }
+}
